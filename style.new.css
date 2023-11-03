@@ -1,0 +1,452 @@
+html {
+    height: 100%;
+   
+}
+body {
+    min-height: 100%;
+}
+
+.navigationtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  } 
+
+.header_logo{
+    width: 300px;
+}
+
+.header_logo {
+    display: block;
+    /* max-width: 100%; */
+    height: auto;
+    margin-left: 380px;
+  }
+  
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    /* flex-wrap: wrap; */
+    width: calc(80%);
+  }
+
+li:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  li a {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  li a span {
+    color: #625d05;
+    font-size: 21px;
+  }
+  
+ .mainvisual{
+    position: relative;
+    Text-Align:center;
+    display:block;
+ }
+
+ .mainbg{
+    opacity: 0.8;
+    width:1200px;
+ }
+
+ .mainvisual h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    color:#fff;
+    margin:0;
+  }
+
+  .mainvisual h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color:#fff;
+    margin:0;
+  }
+
+  .content1 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.content1 h2{
+    font-size: 24px;
+    color:#ffd61a ;
+}
+
+.content1 h3{
+    padding-top: 30px;
+}
+
+.content1 h3{
+    padding: 60px;
+}
+
+.content1 h4{
+    padding-bottom: 20px;
+}
+
+.content1 img{
+    width: 245px;
+}
+
+.content1 ul{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: auto;
+}
+
+.content2 h2{
+font-size: 25px;
+font-weight: bold;
+}
+
+.コース{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .case {
+    margin: 0 auto;
+  }
+  
+  .case__list {
+    margin: 2rem;
+  }
+  
+  .case__item {
+    display: flex;
+    margin: 4rem auto;
+  }
+
+  .case__item:nth-child(odd){
+    flex-direction: row-reverse;
+  }
+  
+  .case__item__text,.case__item__img {
+    width: 50%;
+  }
+  
+  .case__item__text {
+
+    font-size: 20px;
+    margin: auto 3rem;
+  }
+
+  .case__item__text p{
+
+
+  }
+
+  .chapternews h1{ 
+    margin-top: 60px;
+    color: #ffd61a;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.chapterニュース{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.chapternews ul {
+    width: 1200px;
+    margin-top: 60px;
+    display: flex;  
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+
+.chapternews span{
+    font-size: 20px;
+    font-weight: 30px;
+}
+
+.wrap {
+    padding-top: 30px;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    
+    }
+
+    .images {
+    width: 50%;
+    height: 100%;
+    background-color: #FCB632;
+    margin: 0 auto;
+    }
+
+.More{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,+15%);
+}
+
+.chapter4{
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.chapter4 h1{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.chapter4 h2 {
+    margin-bottom: 60px;
+}
+
+.chapter4 .school{
+    margin-top:60px; 
+}
+
+.chapter4 .office{
+margin: 30px;
+}
+
+.chapter4 .TEL{
+    margin: 30px;
+    }
+.chapter4 .FAX{
+    margin: 30px;
+}
+.chapter4 .MAIL{
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.chapter5{
+    text-align: center;
+}
+
+.chapter5 h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.chapter5 h2{
+    margin-top: 30px;
+
+}
+
+.chapter5 .explanation{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.chapter5 .noexistance{
+    margin-top: 30px;
+}
+
+.line{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.why p{
+    margin: 30px;
+}
+
+.google{
+    align-items: left;
+}
+
+.form li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; }
+.name{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.kana{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.mailaddress{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+
+}
+
+.c-form-select {
+    position: relative;
+    text-align: center;
+}
+
+.c-form-select:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 12px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    transform: rotate(135deg);
+    pointer-events: none;
+}
+
+.c-form-select select {
+    height: 2.4em;
+    width: 30%;
+    padding: 0 8px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.c-form-select select::-ms-expand {
+    display: none;
+}
+
+.c-form-select select:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.c-form-select p{
+    margin-top: 30px;
+}
+
+.why p{
+    padding-top: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.detail{
+    width: 300px;
+    padding: 60px;
+    margin: 30px;
+    border: 2px solid black;
+    
+}
+
+
+
+form{
+    list-style:none
+    
+}
+
+.form .google{
+    text-align: left;
+}
+
+.form2{
+
+    width: fit-content;
+    /*コレ*/margin: auto;
+
+}
+
+.send-push{
+    /* display: block; */
+    
+    padding-bottom: 150px;
+    text-align : center ; 
+}
+
+
+    /* .images-send {
+    width: 50%;
+    height: 100%;
+    background-color: hsl(0, 100%, 49%);
+    margin: 0 auto;
+    } */
+
+.images2{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+}
+
+.formrevice{
+    width: fit-content;
+    /*コレ*/margin: auto;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: #707070;
+    width: 1200px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 200px;
+    margin:0 auto
+}
+
+.footer p{
+    color: white;
+    font-size: 15px;
+    padding: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 300px;
+}
